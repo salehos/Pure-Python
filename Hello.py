@@ -39,9 +39,12 @@ def func1(str1, str2):
     print(str3)
     print(type(str3))
 
+    for st in str3:
+        print(st)
+    print("\n")
     str4 = "str1 is : %s , str2 is : %s" % (str1, str2)
 
-    print("and for str 4 " + str4)
+    print("and for str 4 " + str4 + "\n")
 
 
 func1("golabi", "sib")
