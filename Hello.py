@@ -30,7 +30,7 @@ def func1(str1, str2):
 
     print(str3)
 
-    str3 = str3.replace("str1" , "string1")
+    str3 = str3.replace("str1", "string1")
 
     print(str3)
 
@@ -40,15 +40,15 @@ def func1(str1, str2):
     print(type(str3))
 
     for st in str3:
-        if st == "is" :
+        if st == "is":
             continue;
         print(st)
     print("\n")
 
-    for index , st in enumerate(str3):
+    for index, st in enumerate(str3):
         if st == "is":
             continue
-        print(index , st)
+        print(index, st)
     print("\n")
     str4 = "str1 is : %s , str2 is : %s" % (str1, str2)
 
@@ -57,12 +57,12 @@ def func1(str1, str2):
 
 func1("golabi", "sib")
 dict1 = {
-    "key1" : "val1",
-    "key2" : "val2"
+    "key1": "val1",
+    "key2": "val2"
 }
 
-for key , value in dict1.items():
-    print(key , value)
+for key, value in dict1.items():
+    print(key, value)
 
 integer_1 = 10
 float_1 = "%0.2f" % integer_1
@@ -71,14 +71,22 @@ float2 = 4 / 3
 print("%0.2f", float2)
 import math
 
-def func2 (string1 , string2):
-    stringsum = string1+string2
+
+def func2(string1, string2):
+    stringsum = string1 + string2
     print(stringsum)
     for s in stringsum:
-        if('a' in s):
-            stringsum = stringsum.replace('a' , 's')
+        if ('a' in s):
+            stringsum = stringsum.replace('a', 's')
     print(stringsum)
     print(stringsum[-4:])
 
 
-func2("salam" , "doostan")
+func2("salam", "doostan")
+
+list1 = [1 , 2]
+list2 = [1 , 2]
+if list1 == list2 :
+    print("list1 == list2")
+if list1 is list2:
+    print("list1 == list2")
