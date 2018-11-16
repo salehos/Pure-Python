@@ -14,7 +14,7 @@ list_sorted = list_1+list_2
 print(sorted(list_sorted))
 #sort kardane list
 
-def fucn1(str1 , str2):
+def func1(str1 , str2):
     #se ta ' ya " bzan baad ye enter bezan
     """
 
@@ -22,4 +22,6 @@ def fucn1(str1 , str2):
     :param str2:
     :return:
     """
-    pass
+    print(str1 + " " + str2)
+
+func1("golabi" , "sib")
