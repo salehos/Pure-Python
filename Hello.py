@@ -76,7 +76,7 @@ def func2(string1, string2):
     stringsum = string1 + string2
     print(stringsum)
     for s in stringsum:
-        if ('a' in s):
+        if 'a' in s:
             stringsum = stringsum.replace('a', 's')
     print(stringsum)
     print(stringsum[-4:])
@@ -84,9 +84,24 @@ def func2(string1, string2):
 
 func2("salam", "doostan")
 
-list1 = [1 , 2]
-list2 = [1 , 2]
-if list1 == list2 :
+list1 = [1, 2]
+list2 = [1, 2]
+if list1 == list2:
     print("list1 == list2")
 if list1 is list2:
     print("list1 == list2")
+print("\n")
+for l in list1:
+    print(l)
+else:
+    print("golabi")
+# vaghti for ejra nashe else ejra mishe
+print(len(list1))
+for i in range(0, 10):
+    print(i)
+print("\n")
+i = 0
+while i < 5:
+    print(i + 1)
+    i += 1
+print("\n")
