@@ -7,7 +7,8 @@ class Animal:
     @classmethod
     def get_class_name(cls):
         print("class name is " + cls.__name__)
-    #ba @classmethod mishe in tabe ha nro overwrite kard
+    # ba @classmethod mishe in tabe ha nro overwrite kard
+
     @property
     def get_name(self):
         return "my name is %s and my age is %d" % (self.type, self._age)
