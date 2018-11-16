@@ -17,7 +17,6 @@ print(sorted(list_sorted))
 def func1(str1 , str2):
     #se ta ' ya " bzan baad ye enter bezan
     """
-
     :param str1:
     :param str2:
     :return:
@@ -26,6 +25,15 @@ def func1(str1 , str2):
         "str1" : str1,
         "str2" : str2
     })
+
+    str4 = "str1 is : %s , str2 is : %s" %(str1 , str2)
+
     print(str3)
 
+    print("and for str 4 " + str4)
+
 func1("golabi" , "sib")
+
+float_1 = 10.123
+integer_1 = "%d" %(float_1)
+print(integer_1)
