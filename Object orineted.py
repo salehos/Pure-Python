@@ -9,13 +9,12 @@ class Animal:
         return "my name is %s and my age is %d" % (self._name, self._age)
 
 class Cat(Animal):
-    def __index__(self , age):
+    def __init__(self , age):
         super(Cat, self).__init__("cat" , age)
 
 
 dog = Animal("dog", 10)
 cat = Cat(15)
-
 
 
 
