@@ -3,6 +3,8 @@ class Animal:
 
     def __init__(self, age):
         self._age = age
+        self.list = []
+        #baes mishe dorost betoni instant begiri yaani to n ta instance n ta list sakhte she na ye liste n taei
 
     @classmethod
     def get_class_name(cls):
