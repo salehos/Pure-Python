@@ -13,3 +13,13 @@ list_sorted = list_1+list_2
 
 print(sorted(list_sorted))
 #sort kardane list
+
+def fucn1(str1 , str2):
+    #se ta ' ya " bzan baad ye enter bezan
+    """
+
+    :param str1:
+    :param str2:
+    :return:
+    """
+    pass
