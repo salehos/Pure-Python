@@ -56,6 +56,13 @@ def func1(str1, str2):
 
 
 func1("golabi", "sib")
+dict1 = {
+    "key1" : "val1",
+    "key2" : "val2"
+}
+
+for key , value in dict1.items():
+    print(key , value)
 
 integer_1 = 10
 float_1 = "%0.2f" % integer_1
@@ -63,3 +70,15 @@ print(float_1)
 float2 = 4 / 3
 print("%0.2f", float2)
 import math
+
+def func2 (string1 , string2):
+    stringsum = string1+string2
+    print(stringsum)
+    for s in stringsum:
+        if('a' in s):
+            stringsum = stringsum.replace('a' , 's')
+    print(stringsum)
+    print(stringsum[-4:])
+
+
+func2("salam" , "doostan")
