@@ -40,6 +40,8 @@ def func1(str1, str2):
     print(type(str3))
 
     for st in str3:
+        if st == "is" :
+            continue;
         print(st)
     print("\n")
     str4 = "str1 is : %s , str2 is : %s" % (str1, str2)
