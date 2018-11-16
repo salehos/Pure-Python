@@ -44,6 +44,12 @@ def func1(str1, str2):
             continue;
         print(st)
     print("\n")
+
+    for index , st in enumerate(str3):
+        if st == "is":
+            continue
+        print(index , st)
+    print("\n")
     str4 = "str1 is : %s , str2 is : %s" % (str1, str2)
 
     print("and for str 4 " + str4 + "\n")
