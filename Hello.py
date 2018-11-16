@@ -22,6 +22,7 @@ def func1(str1 , str2):
     :param str2:
     :return:
     """
+    str3 = "str1 is : %s , str2 is :%s" % (str1 , str2)
     print(str1 + " " + str2)
 
 func1("golabi" , "sib")
