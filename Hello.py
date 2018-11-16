@@ -106,5 +106,5 @@ while i < 5:
     i += 1
 print("\n")
 
-def func3(str1=0 , str2 = "salam"):
+def func3(str1 = 0 , str2 = "salam"):
     pass
