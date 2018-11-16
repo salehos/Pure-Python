@@ -28,9 +28,18 @@ def func1(str1, str2):
         "str2": str2
     })
 
-    str4 = "str1 is : %s , str2 is : %s" % (str1, str2)
+    print(str3)
+
+    str3 = str3.replace("str1" , "string1")
 
     print(str3)
+
+    str3 = str3.split(" ")
+
+    print(str3)
+    print(type(str3))
+
+    str4 = "str1 is : %s , str2 is : %s" % (str1, str2)
 
     print("and for str 4 " + str4)
 
